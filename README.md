@@ -73,7 +73,7 @@ CodeAlpha_DiseasePrediction/
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
 │
-├── heart_disease.csv          # Dataset (generated)
+├── heart_disease.csv          # Dataset 
 │
 └── Output Visualizations/
     ├── class_distribution.png
@@ -91,7 +91,7 @@ CodeAlpha_DiseasePrediction/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YourUsername/CodeAlpha_DiseasePrediction.git
+git clone https://github.com/Binary-Potato-0/CodeAlpha_DiseasePrediction.git
 cd CodeAlpha_DiseasePrediction
 ```
 
@@ -248,17 +248,6 @@ Probability of No Disease: 14.77%
 
 ---
 
-##  Contributing
-
-This is an internship project, but suggestions are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
 
 ##  Contact
 

@@ -7,6 +7,7 @@ using various classification algorithms including SVM, Logistic Regression,
 Random Forest, and XGBoost.
 """
 
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -41,7 +42,8 @@ class DiseasePredictionModel:
         data_path : str
             Path to the dataset file
         """
-        self.data_path = data_path
+        
+        self.data_path = os.path.join(os.path.dirname(__file__), "heart_disease.csv")
         self.data = None
         self.X_train = None
         self.X_test = None
@@ -101,7 +103,7 @@ class DiseasePredictionModel:
         plt.ylabel('Count', fontsize=12)
         plt.xticks(rotation=0)
         plt.tight_layout()
-        plt.savefig('/home/claude/CodeAlpha_DiseasePrediction/class_distribution.png', dpi=300, bbox_inches='tight')
+        plt.savefig('class_distribution.png', dpi=300, bbox_inches='tight')
         plt.close()
         print("\n✓ Class distribution plot saved!")
         
@@ -112,7 +114,7 @@ class DiseasePredictionModel:
                     center=0, linewidths=0.5, cbar_kws={"shrink": 0.8})
         plt.title('Feature Correlation Matrix', fontsize=16, fontweight='bold', pad=20)
         plt.tight_layout()
-        plt.savefig('/home/claude/CodeAlpha_DiseasePrediction/correlation_matrix.png', dpi=300, bbox_inches='tight')
+        plt.savefig('correlation_matrix.png', dpi=300, bbox_inches='tight')
         plt.close()
         print("✓ Correlation matrix saved!")
         
@@ -273,7 +275,7 @@ class DiseasePredictionModel:
         axes[1, 2].axis('off')
         
         plt.tight_layout()
-        plt.savefig('/home/claude/CodeAlpha_DiseasePrediction/model_comparison.png', dpi=300, bbox_inches='tight')
+        plt.savefig('model_comparison.png', dpi=300, bbox_inches='tight')
         plt.close()
         print("\n✓ Model comparison plot saved!")
         
@@ -294,7 +296,7 @@ class DiseasePredictionModel:
         plt.legend(loc="lower right", fontsize=11)
         plt.grid(alpha=0.3)
         plt.tight_layout()
-        plt.savefig('/home/claude/CodeAlpha_DiseasePrediction/roc_curves.png', dpi=300, bbox_inches='tight')
+        plt.savefig('roc_curves.png', dpi=300, bbox_inches='tight')
         plt.close()
         print("✓ ROC curves saved!")
         
@@ -313,7 +315,7 @@ class DiseasePredictionModel:
             ax.set_xlabel('Predicted', fontsize=12)
         
         plt.tight_layout()
-        plt.savefig('/home/claude/CodeAlpha_DiseasePrediction/confusion_matrices.png', dpi=300, bbox_inches='tight')
+        plt.savefig('confusion_matrices.png', dpi=300, bbox_inches='tight')
         plt.close()
         print("✓ Confusion matrices saved!")
         
@@ -347,7 +349,7 @@ class DiseasePredictionModel:
         axes[1].invert_yaxis()
         
         plt.tight_layout()
-        plt.savefig('/home/claude/CodeAlpha_DiseasePrediction/feature_importance.png', dpi=300, bbox_inches='tight')
+        plt.savefig('feature_importance.png', dpi=300, bbox_inches='tight')
         plt.close()
         print("✓ Feature importance plot saved!")
         
@@ -439,7 +441,7 @@ def main():
     print("PROJECT COMPLETED SUCCESSFULLY!")
     print("=" * 80)
     print("\nAll results and visualizations have been saved to:")
-    print("  /home/claude/CodeAlpha_DiseasePrediction/")
+    print("  D:\CodeAlpha_DiseasePrediction")
     print("\nGenerated files:")
     print("  ✓ class_distribution.png")
     print("  ✓ correlation_matrix.png")

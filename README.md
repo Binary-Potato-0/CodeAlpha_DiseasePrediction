@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements a comprehensive **Disease Prediction System** that predicts the possibility of heart disease based on patient medical data. The system uses multiple machine learning classification algorithms including:
 
@@ -17,7 +17,7 @@ The project demonstrates end-to-end machine learning workflow including data pre
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Predict heart disease presence using patient medical data
 - Compare multiple classification algorithms
@@ -27,7 +27,7 @@ The project demonstrates end-to-end machine learning workflow including data pre
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **Source:** UCI Machine Learning Repository - Heart Disease Dataset (Cleveland)
 
@@ -51,7 +51,7 @@ The project demonstrates end-to-end machine learning workflow including data pre
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.8+**
 - **NumPy** - Numerical computing
@@ -63,7 +63,7 @@ The project demonstrates end-to-end machine learning workflow including data pre
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CodeAlpha_DiseasePrediction/
@@ -86,7 +86,7 @@ CodeAlpha_DiseasePrediction/
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -115,7 +115,7 @@ python disease_prediction.py
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -158,7 +158,7 @@ prediction, probability = model.predict_new_sample(sample_patient)
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 The system trains and evaluates four different algorithms:
 
@@ -178,7 +178,7 @@ All models typically achieve:
 
 ---
 
-## 🎨 Visualizations
+##  Visualizations
 
 The project generates six comprehensive visualizations:
 
@@ -191,7 +191,7 @@ The project generates six comprehensive visualizations:
 
 ---
 
-## 🔍 Key Features
+##  Key Features
 
 ### Data Preprocessing
 - Missing value handling
@@ -216,7 +216,7 @@ The project generates six comprehensive visualizations:
 
 ---
 
-## 🧪 Results Interpretation
+##  Results Interpretation
 
 ### Understanding Predictions
 
@@ -235,7 +235,7 @@ Probability of No Disease: 14.77%
 
 ---
 
-## 📝 Future Enhancements
+##  Future Enhancements
 
 - [ ] Deep learning models (Neural Networks)
 - [ ] Feature engineering and selection
@@ -248,7 +248,7 @@ Probability of No Disease: 14.77%
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is an internship project, but suggestions are welcome!
 
@@ -260,21 +260,16 @@ This is an internship project, but suggestions are welcome!
 
 ---
 
-## 📧 Contact
+##  Contact
 
-**Your Name**  
-Email: your.email@example.com  
-LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/yourprofile)  
-GitHub: [Your GitHub](https://github.com/yourusername)
-
-**CodeAlpha**  
-Website: www.codealpha.tech  
-Email: services@codealpha.tech  
-WhatsApp: +91 8052293611
+Mostafa Eldeeb 
+Email: mostafa.eldeeb912@gmail.com  
+LinkedIn: https://www.linkedin.com/in/mostafa--eldeeb/ 
+GitHub: https://github.com/Binary-Potato-0
 
 ---
 
-## 📄 License
+##  License
 
 This project is part of CodeAlpha Machine Learning Internship program.
 
@@ -289,7 +284,7 @@ This project is part of CodeAlpha Machine Learning Internship program.
 
 ---
 
-## 📚 References
+##  References
 
 1. [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease)
 2. [Scikit-learn Documentation](https://scikit-learn.org/)

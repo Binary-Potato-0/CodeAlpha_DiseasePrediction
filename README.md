@@ -250,10 +250,11 @@ Probability of No Disease: 14.77%
 
 
 ##  Contact
-
-Mostafa Eldeeb 
+ 
 Email: mostafa.eldeeb912@gmail.com  
+
 LinkedIn: https://www.linkedin.com/in/mostafa--eldeeb/ 
+
 GitHub: https://github.com/Binary-Potato-0
 
 ---
